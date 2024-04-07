@@ -7,18 +7,13 @@
     }
 
     #background {
-      width: calc(100% - 10px);
-      height: calc(100% - 10px);
-      fill: white;
+      width: 100%;
+      height: 100%;
+      fill: #0d1117; /* Changed default background color */
       stroke: rgb(225, 228, 232);
       stroke-width: 1px;
       rx: 6px;
       ry: 6px;
-    }
-
-    #gh-dark-mode-only:target #background {
-      fill: #0d1117;
-      stroke-width: 0.5px;
     }
 
     foreignObject {
