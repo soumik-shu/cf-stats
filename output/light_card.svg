@@ -7,18 +7,13 @@
     }
 
     #background {
-      width: calc(100% - 10px);
-      height: calc(100% - 10px);
-      fill: white;
+      width: 100%;
+      height: 100%;
+      fill: #2d333b; /* Changed default background color */
       stroke: rgb(225, 228, 232);
       stroke-width: 1px;
       rx: 6px;
       ry: 6px;
-    }
-
-    #gh-dark-mode-only:target #background {
-      fill: #0d1117;
-      stroke-width: 0.5px;
     }
 
     foreignObject {
@@ -38,11 +33,11 @@
       text-align: left;
       font-size: 14px;
       font-weight: 600;
-      color: rgb(3, 102, 214);
+      color: rgb(3, 102, 214); /* Blue color for headers */
     }
 
     #gh-dark-mode-only:target th {
-      color: #58a6ff;
+      color: #58a6ff; /* Lighter blue color for headers in dark mode */
     }
 
     td {
@@ -51,11 +46,7 @@
       padding: 0.25em;
       font-size: 12px;
       line-height: 18px;
-      color: rgb(88, 96, 105);
-    }
-
-    #gh-dark-mode-only:target td {
-      color: #c9d1d9;
+      color: white; /* Changed text color to white */
     }
 
     tr {
@@ -84,7 +75,7 @@
     }
   </style>
   <g>
-    <rect x="5" y="5" id="background" />
+    <rect x="5" y="5" id="background" width="400" height="300" />
     <g>
       <foreignObject x="21" y="21" width="318" height="200">
         <div xmlns="http://www.w3.org/1999/xhtml">
